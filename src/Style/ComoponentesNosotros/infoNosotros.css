@@ -1,0 +1,32 @@
+.infoNosotros {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.info h1 {
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.info p {
+    text-align: justify;
+}
+@media (max-width: 888px) {
+    .infoNosotros {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .imagenNosotros {
+        width: 100%;
+    }
+}

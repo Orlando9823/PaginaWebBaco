@@ -1,0 +1,34 @@
+.atencion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+.titleAtencion {
+    margin-bottom: 50px;
+}
+.horario {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 80px;
+}
+
+@media (max-width: 767px) {
+    .atencion {
+        height: 60vh;
+    }
+    .horario {
+        display: flex;
+        flex-direction: column;
+    }
+    .hora {
+        margin: 20px 0;
+    }
+}

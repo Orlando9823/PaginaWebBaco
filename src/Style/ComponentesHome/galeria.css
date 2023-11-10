@@ -1,0 +1,36 @@
+.galeria {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+
+}
+.galeria .wide {
+    grid-column: span 2;
+}
+.galeria .tall {
+    grid-row: span 2;
+}
+.galeria .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.galeria > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galeria > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

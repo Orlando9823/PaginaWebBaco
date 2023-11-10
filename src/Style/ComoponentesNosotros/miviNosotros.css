@@ -1,0 +1,46 @@
+.miVi {
+    width: 100%;
+    display: flex;
+}
+.mision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 100px 0;
+}
+.mision h1 {
+    margin-bottom: 20px;
+}
+.vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+    background-color: rgb(3, 99, 3);
+    color: white;
+    padding: 100px 0;
+}
+.vision h1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 888px) {
+    .miVi {
+        flex-direction: column;
+    }
+    .mision {
+        width: 100%;
+        background-color: rgb(3, 99, 3);
+    }
+    .vision {
+        width: 100%;
+        background-color: rgb(20, 20, 20);
+    }
+}

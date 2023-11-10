@@ -1,0 +1,42 @@
+.sobreNosotros {
+    display: flex;
+    width: 100%;
+}
+.sobreNosotros .izquierda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.sobreNosotros .izquierda h2, p {
+    margin: 0 80px;
+}
+.sobreNosotros .derecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+.sobreNosotros .derecha img {
+    width: 70%;
+    height: 400px;
+}
+@media (max-width: 767px) {
+    .sobreNosotros {
+        flex-direction: column;
+    }
+    .sobreNosotros .izquierda {
+        margin: 40px 0;
+        width: 100%;
+    }
+    .sobreNosotros .izquierda h1, p {
+        margin: 0 30px;
+    }
+    .sobreNosotros .derecha {
+        display: none;
+        width: 100%;
+    }
+}
